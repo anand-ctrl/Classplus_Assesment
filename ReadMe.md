@@ -6,7 +6,7 @@
 
 S. No. | Comment | Example
 --- | --- | ---
-1 | Value of n, h, x (space separated) where,<br /> <UL> <LI> n=No. of cities <LI>h=No. of epicentre <LI> x=Distance through which virus can travel </UL>| 5 2 2
+1 | Value of n, h, x (space separated) where,<br /> <UL> <LI> n=No. of cities <LI>h=No. of hotspots <LI> x=Distance through which virus can travel </UL>| 5 2 2
 2 | Hotspots cities | 2 5
 3 | Now connect cities | 1 2 <br /> 2 3 <br /> 2 4 <br /> 4 5 
 
@@ -35,10 +35,10 @@ Taking the case given in the question:
 
 where,
 - n-No. of cities
-- h-No. of epicentre
+- h-No. of hotspots
 - x-Distance through which virus can travel
 
-### Now we need to identify the epicentre: <br />
+### Now we need to find number of epicentres: <br />
 
 For this I am finding all the nodes/cities through which virus can be transmitted.<br />
 - Given hotspots are : 2 and 5
